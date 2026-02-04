@@ -45,7 +45,8 @@ For convenient testing, we have provided a split set of one subject in VGGFace2 
 
 ## How to run InstaGuard
 
-The pre-trained model weight is released at an anonymous [huggingface link](https://huggingface.co/AnonymousInstaGuard/InstaGuard/) (This link is totally anonymous during review process).
+Due to GitHub’s file size limitations, the pre-trained model weights are provided via an anonymous [Huggingface link](https://huggingface.co/AnonymousInstaGuard/InstaGuard/)
+ (fully anonymous during the review process). You can download the weights and place them in the ./ckpt folder.
 
 To generate the protected image, you can run
 
@@ -68,4 +69,5 @@ If you want to generate images from the trained models, you can run
 ```bash
 bash scripts/infer.sh
 ```
+
 
